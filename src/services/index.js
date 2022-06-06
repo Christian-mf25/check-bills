@@ -2,5 +2,11 @@
 import validateBankNotes from './validateBankNotes.service';
 import billsType from './billsType.service';
 import ErrorHandler from './erros.service';
+import findAmount from './findAmount.service';
 
-export { billsType, ErrorHandler, validateBankNotes };
+export {
+  billsType,
+  ErrorHandler,
+  validateBankNotes,
+  findAmount,
+};
