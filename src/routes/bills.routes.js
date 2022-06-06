@@ -1,8 +1,8 @@
+import { checkParamsIsValid } from '../middlewares';
+
 const billsRoutes = (route) => {
-  route.get('/:scannableLines', (req, res) => {
-    const { scannableLines } = req.params;
-    console.log(scannableLines);
-    res.status(200).json({ message: 'scannableLines' });
+  route.get('/:digitLines', checkParamsIsValid, (_, res) => {
+    res.status(200).json({ message: 'digitLines' });
   });
 };
 
