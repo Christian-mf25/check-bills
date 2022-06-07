@@ -1,14 +1,18 @@
 /* eslint-disable import/prefer-default-export */
+import validateBankConsortium from './validateBankConsortium.service';
 import validateBankNotes from './validateBankNotes.service';
+import findExpirationDate from './findExpirationDate.service';
+import findBarCode from './findBarCode.service';
 import findAmount from './findAmount.service';
 import billsType from './billsType.service';
 import ErrorHandler from './erros.service';
-import findBarCode from './findBarCode.service';
 
 export {
-  billsType,
-  ErrorHandler,
+  validateBankConsortium,
+  findExpirationDate,
   validateBankNotes,
-  findAmount,
+  ErrorHandler,
   findBarCode,
+  findAmount,
+  billsType,
 };

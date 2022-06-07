@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { sumRemainder } from '../utils';
-import MultiplyByTwo from '../utils/MultiplyByTwo.utils';
+import { sumRemainder, MultiplyByTwo } from '../utils';
 
 const validateBankNotes = (digits) => {
   const digitsArray = digits.split('');
