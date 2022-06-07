@@ -15,13 +15,13 @@ Para instalar as dependências do projeto, basta rodar o comando `yarn`  em seu 
 ## Base URL
 #
 
-```jsx
-http://localhost:8080](http://localhost:8080/)/
+```
+http://localhost:8080/
 ```
 
-A aplicação roda na porta ::8080, porém pode ser alterada a com a seguinte variável de ambiente `PORT=novoNumero` 
+A aplicação roda na porta ::8080, porém pode ser alterada a com a seguinte **variável** de ambiente `PORT=novoNumero` 
 
-Após a instalação das dependências você pode rodar a aplicação no terminal de sua maquina com o seguinte comando `yarn start`. Caso a variável de ambiente não tenha sido alterada ela irá rodar na porta [**http://localhost:8080/](http://localhost:8080/)** , caso senha alterado, rodará na porta  [**http://localhost:novoNumero/**](http://localhost:8080/).
+Após a instalação das dependências você pode rodar a aplicação no terminal de sua maquina com o seguinte comando `yarn start`. Caso a variável de ambiente não tenha sido alterada ela irá rodar na porta [**http://localhost:8080/**](http://localhost:8080/) , caso senha alterado, rodará na porta  [**http://localhost:novoNumero/**](http://localhost:8080/).
 
 ## Endpoints:
 
